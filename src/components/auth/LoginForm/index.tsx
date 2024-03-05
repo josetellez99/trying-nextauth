@@ -27,7 +27,8 @@ export function LoginForm() {
             showSocial
         >
             <Form {...form}>
-                <form onSubmit={form.handleSubmit(()=> {})}>
+                <form 
+                    onSubmit={form.handleSubmit(()=> {})}>
 
                 </form>
             </Form>
